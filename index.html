@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday ❤️</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(#8D6E63);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+}
+
+.card{
+    background:#CFA5A5;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,.2);
+    width:90%;
+    max-width:500px;
+}
+
+h1{
+    color:#ff5b9f;
+    font-family:'Great Vibes', cursive;
+    font-size:60px;
+    font-weight:normal;
+}
+
+p{
+    color:#4A4A4A;
+    font-family:'Poppins', sans-serif;
+    font-size:18px;
+    line-height:1.8;
+}
+
+button{
+     background:#A67C52;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:40px;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+   
+}
+
+button:hover{
+    background:#8D6E63;
+    transform:scale(1.05);
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+
+<h1>🎂 Happy Birthday Massuhana ❤️</h1>
+
+<p>
+✨🦋 Every butterfly reminds me of
+how beautiful life became
+after you entered mine.
+
+Today is all about you.
+</p>
+
+<button onclick="openSurprise()">🦋🌷 Open My Surprise</button>
+
+</div>
+
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function openSurprise() {
+    document.getElementById("music").play().catch(() => {});
+
+    window.location.href = "Invitation for Birthday Massuhana.pdf";
+}
+
+</script>
+</body>
+</html>
